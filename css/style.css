@@ -84,6 +84,7 @@ body {
 }
 
 .main-section__button{
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
@@ -91,6 +92,7 @@ body {
 	letter-spacing: .06em;
 	color: var(--white-text-color);
 	background-color: var(--accent-color);
+	font-family: Roboto;
 }
 
 /* Benefits ------------------------------------------------------------------------------- */
