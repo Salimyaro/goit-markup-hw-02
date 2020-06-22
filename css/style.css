@@ -33,25 +33,89 @@ body {
 	color: var(--accent-color);
 }
 
-/* Nav -------------------------------------------------------------------------------------*/
-.nav-list{
+/* Nav & Contacts---------------------------------------------------------------------------*/
+.nav-list,
+.contacts{
 	font-weight: 500;
 	letter-spacing: .02rem;
 }
 
-.nav-list .link {
+.nav-list__link{
 	color: var(--title-text-color);
 	text-decoration: none;
 }
 
 .nav-list .current,
-.nav-list .link:hover,
-.nav-list .link:focus {
+.nav-list__link:hover,
+.nav-list__link:focus {
 	color: var(--accent-color);
 }
 
-.contacts .link{
+.contacts__link{
 	color: var(--primary-text-color);
+	text-decoration: none;
+}
+/* MAIN =================================================================================== */
+.main-section {
+}
+.main-section__title {
+}
+.main-section__button {
+}
+.benefits {
+}
+
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-item__image {
+}
+.benefits-list-item__title {
+}
+.benefits-list-item__text {
+}
+.examples {
+}
+.examples-title {
+}
+.examples-list {
+}
+.examples-list-item {
+}
+.examples-list-item__image {
+}
+.examples-list-item__title {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-item__image {
+}
+.team-list-item__title {
+}
+.team-list-item__text {
+}
+.social-list {
+}
+.social-list-item {
+}
+.social-list-item__link {
+}
+.clients {
+}
+.clients-title {
+}
+.clients-list {
+}
+.clients-list-item {
+}
+.clients-list-item__link {
 }
 /* FOOTER ==================================================================================*/
 .footer{
@@ -78,16 +142,17 @@ body {
 	line-height: 1.7;
 	font-style: normal;
 }
-.address-street {
+.address-list__street {
 	color: #ffffff;
 }
-.address-mail,
-.address-tel {
+.address-list__mail,
+.address-list__tel {
 	color: rgba(255, 255, 255, .6);
 	text-decoration: none;
 }
-/* Social ----------------------------------------------------------------------------------*/
-.social-title{
+/* Social & Subscribe-----------------------------------------------------------------------*/
+.social-title,
+.subscribe-title{
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
