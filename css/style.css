@@ -56,11 +56,11 @@ body {
 .nav-list .current,
 .nav-list__link:hover,
 .nav-list__link:focus,
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
 	color: var(--accent-color);
 }
-.contacts__link{
+.contacts-list__link{
 	color: var(--primary-text-color);
 	text-decoration: none;
 }
