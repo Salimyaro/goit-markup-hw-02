@@ -83,16 +83,14 @@ body {
 	color: var(--white-text-color);
 }
 
-/* .main-section__button {
-} */
-
-.main-section__button-text{
+.main-section__button{
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
 	text-align: center;
 	letter-spacing: .06em;
 	color: var(--white-text-color);
+	background-color: var(--accent-color);
 }
 
 /* Benefits ------------------------------------------------------------------------------- */
@@ -287,6 +285,7 @@ background-color: rgba(33, 150, 243, 0.9);
 }
 .address-list__street {
 	color: var(--white-text-color);
+	text-decoration: none;
 }
 .address-list__mail,
 .address-list__tel {
